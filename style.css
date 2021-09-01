@@ -7,14 +7,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('./snow.jpg');
-    background-position: center center;
-    background-size: cover;
+    background: linear-gradient(to right, #373b44, #4286f4);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 
 h1 {
@@ -30,7 +29,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-.big-text {
+p {
     font-size: 6rem;
     line-height: 2;
     padding: 0 2rem;
